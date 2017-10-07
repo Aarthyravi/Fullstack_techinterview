@@ -1,1 +1,1 @@
-# Fullstack_techinterview
+# Fullstack Technical Interview
