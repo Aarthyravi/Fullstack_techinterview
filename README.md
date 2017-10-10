@@ -16,6 +16,6 @@
   * In the same .py file, include at least 3 test cases for each solution. For each test case, write the function call with the input you     want to test and print it to the console, like "print question1()". On the next line, comment out the output you expect 
     to see from that function call. At least 2 of these must be edge cases, testing inputs such as null values, empty inputs, 
     unusually large values.
-  * Write up an explanation for each question in a single separate text file (called "explanations.txt"). Your paragraph should not be a   
-    detailed walkthrough of the code you provided, but provide your reasoning behind decisions made in the code. For example, why did you     use that data structure? You also need to explain the efficiency (time and space) of your solution.
+  * Write up an explanation for each question in a single separate text file (called "explanations.txt"). Your paragraph should 
+    not be a detailed walkthrough of the code you provided, but provide your reasoning behind decisions made in the code. For example, why     did you use that data structure? You also need to explain the efficiency (time and space) of your solution.
   * Compress your one Python and one text file into a .zip, and submit.
