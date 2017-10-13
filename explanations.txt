@@ -1,0 +1,49 @@
+                                                                       Full Stack Technical Interview questions explanation
+                      
+Question1:
+
+   The Python function question1 takes two arguments s & t. s takes a string & t takes a substring of s.Creates the dicionaries of {character:character_frequency} pairs for all characters in a given string s & t.
+The efficiency of the code would be O(len(s)*len(t)) for the for loops to create the the dicionaries. Then, An anagram substring exists if s has greater or equal the number of occurences of each of t's characters 
+as t. Here, the efficiency of the code would be O(len(t)) for the for loops  to find an anagram substring exist.
+
+The time efficiency is O(len(s)*2len(t))
+The space efficiency is O(1)
+
+Question2:
+
+    The function question2 takes one argument a. a takes a string.I found all palindromic substring from the given string and add them into one array. Finally, I found a maximum length of the palindromic 
+from an stored array. The efficiency of this code would be O(n) for first the for loops and O(n^2) for second for loop. 
+
+The time efficiency is O(n+n^2)
+The space efficiency is O(1)
+
+Question3:
+   The Graph class has two different components created Nodes and Edges. In a Node Class,each node has a list of Edges. That edges have both a value and a direction. An edge points from one node to another—the 
+node it starts at is the node_from and the node it ends at is the node_to. Using kruskal's algorithm I sort the edges in non-decreasing order using the total number of vertices.T o create disjointed sets 
+makeset, find the parent of nodes find set, and join to nodes together based on rank union.I sorted the result. so, it will be O(V+E). It will take O(ElogE) time to sort the edges in non-decreasing order. 
+   
+The time efficiency is O(ElogE)
+The space efficiency is O(E+V)
+
+Question4:
+
+   The function question4 takes four arguments that T repesents as a matrix, r is the root node, n1 and are the two nodes of the BST. First I found the rows of the matrix. Then I traversed through the tree from 
+bottom to top. I keep finding the parent node of n1 until it reach the root node and to keep stored the parent nodes in parent array. Then check the parent of node n2 is present in parent array ,continue 
+this process until n2 reach the root node. Finally I found the least common ancestor between the node n1 and n2. The efficiency of this code would be O(n) for finding the rows of the matrix and traversed a
+tree from bottom to top for finding the parent of n1 and n2 nodes(two n times while loop is running until root node).  
+
+The time efficiency is O(n^3)
+The space efficiency is O(1)       
+
+Question5:
+
+  I initialized a new node. ll is the first node of the list. Each node has some value associated in the LinkedList and it has a variable that points to the next element in the linked list. I used the append
+method that helps to add a new Element to the end of my LinkedList. The function finds the mth element from the last element with in a linked list. Fisrt, I found the length of the LinkedList. Then subtract the
+mth element from the last element and add 1. It helps to calculate the mth element position from the first element. Now I set the head to the current. I keep tracking the mth element until the length of the 
+mth element position from the first in the Linked List and return the value of the mth element. The efficiency of this code would be O(n) for finding the length of the LinkedList  
+
+The time efficiency is O(nlogn)
+The space efficiency is O(1)         
+    
+ 
+        
