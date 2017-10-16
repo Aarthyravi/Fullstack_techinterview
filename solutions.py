@@ -288,7 +288,7 @@ class Graph(object):
             rank[v2root] += 1
 
 
-def question3(graph):
+def question3(graph)
    
     A = {}
 
